@@ -1,0 +1,19 @@
+.search-bar input[type='text'] {
+  background-image: url('../../assets/img/search.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  border: 2px solid #783fe8;
+  border-radius: 20px;
+  float: right;
+  color: #009176;
+  padding: 6px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  background-image: none;
+}

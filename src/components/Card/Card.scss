@@ -1,0 +1,55 @@
+.card {
+  display: block;
+  width: 200px;
+  min-height: 100%;
+  border: 2px solid #783fe8;
+  border-radius: 10px;
+  padding: 10px 5px;
+  background-color: #fff;
+  transition: 0.4s all;
+  img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+  hr {
+    width: 90%;
+  }
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 5px;
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s all;
+  -webkit-box-shadow: 16px 14px 8px 0px rgba(119, 63, 232, 0.28);
+  -moz-box-shadow: 16px 14px 8px 0px rgba(119, 63, 232, 0.28);
+  box-shadow: 16px 14px 8px 0px rgba(119, 63, 232, 0.28);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 5px;
+  button {
+    flex-grow: 1;
+    border: 2px solid #783fe8;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.favorite {
+  color: rgb(202, 141, 9);
+}
+
+.liked {
+  color: rgb(165, 38, 38);
+}

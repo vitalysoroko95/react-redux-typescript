@@ -1,0 +1,9 @@
+.sort-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: black opacify($color: #000000, $amount: 0.5);
+    gap: 10px;
+}
+

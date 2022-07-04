@@ -1,0 +1,21 @@
+.nav ul {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500px;
+  li {
+    color: #783fe8;
+    margin-right: 30px;
+    a {
+      padding: 5px;
+    }
+    a:active {
+      color: #fff;
+    }
+  }
+}
+
+.active {
+  border: 2px solid #783fe8;
+  color: #fff;
+  border-radius: 20px;
+}
